@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>The City Tutors | Edit Tutor </title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+<body id="editTutor">
+    <div class="container-fluid">  
+        <nav class="header navbar">     
+            <img src="mainLogo.png" height="60" width="168" id="logo"> <!-- City Tutors Logo --> 
+            <a class="navbar-brand" href="index.html"></a>
+            <a href="#"><img src="my-account-icon.png" height="35px" width="35px" id="myAccount"></a><span class="topIconSprites">Switch<br>Users</span>
+            <a href="#"><img src="switch-user-icon.png" height="35px" width="35px" id="switchUserLogo"></a><span class="topIconSprites">My<br>Account</span>
+            <input type="search" name="searchBox" placeholder="Search" id="searchBox">            
+        </nav>
+        <nav class="navbar-default" role="navigation">
+          <ul class="navbar-main">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">User</a></li>
+              <li><a href="#">Tutor</a></li>
+              <li><a href="#">Organizations</a></li>
+              <li><a href="#">Sites</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Embeded Tutor</a></li>
+          </ul>
+        </nav>
+      <main>
+          <div class="row container-inner">
+              <h4>Personal Info</h4>
+                <table border="0" class="tableTutor">
+                  <tr>
+                    <td>FirstName <span class="asterisk">*</span></td>
+                    <td><input type="text" name="firstName" class="tableCell" id="firstNameTutor"> </td>
+                  </tr>
+                  <tr>
+                    <td>LastName <span class="asterisk">*</span></td>
+                    <td><input type="text" name="lastName" class="tableCell" id="lastNameTutor"> </td>
+                  </tr>
+                  <tr>
+                    <td>Email <span class="asterisk">*</span></td>
+                    <td><input type="email" name="email" class="tableCell" id="tutorEmail"></td>
+                  </tr>
+                  <tr>
+      <!-- JavaSctipt needs to be in place for Username/Password for security -->
+                    <td>UserName</td>
+                    <td><input type="text" class="tableCell" name="tutorUserName"></td>
+                  </tr>
+                  <tr>
+                    <td>Password</td>
+                    <td><input type="text" class="tableCell" name="tutorPassword"></td>
+                  </tr>
+                  <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="text" class="tableCell" name="confirmPassword"></td>
+                  </tr>
+                  <tr>
+                    <td>Phone <span class="asterisk">*</span></td>
+                    <td><input type="phone" name="tutorPhone" class="tableCell" id="tutorPhone"> </td>
+                  </tr>
+                  <tr>
+                    <td>Tutor Type <span class="asterisk">*</span></td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Type</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                      </select></td>
+                  </tr>
+                  </tr>  
+                  <tr>
+                    <td>CCNY_FL</td>
+                    <td><input type="radio" name="CCNY_FL" value="check" id="associatedWithCCNY"><label for="AssociatedWithCCNY">Associated</label><input type="radio" name="CCNY_FL" value="check" id="notAssociatedWithCCNY"><label for="notAssociateWithCCNY">Not Associated</label></td>
+                  </tr>
+                  <tr>
+                    <td>Alumni</td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Type</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                      </select></td>
+                  </tr>
+                </table>
+          </div>
+          <div class="row container-inner">
+              <h4>Additional Info1</h4>
+                <table border="0" class="tableTutor">
+                  <tr>
+                    <td>Status <span class="asterisk">*</span></td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Type</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        </select></td>
+                  </tr>
+                  <tr>
+                    <td>Status Info</td>
+                    <td><input type="text" name="statusInfo" class="tableCell" id="status"></td>
+                  </tr> 
+                  <tr>
+                    <td>Subject Areas</td>
+                    <td><input type="text" name="subjectArea" class="tableCell" id="subjectArea"></td>
+                  </tr> 
+                  <tr>
+                    <td>Admin Team</td>
+                    <td><input type="text" name="adminTeam" class="tableCell" id="adminTeam"></td>
+                  </tr>
+                  <tr>
+                    <td>Admin Role <span class="asterisk">*</span></td>
+                    <td><input type="text" name="adminRole" class="tableCell" id="adminRole"></td>
+                  </tr> 
+                  <tr>
+                    <td>Campus <span class="asterisk">*</span></td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Campus</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                      </select></td>
+                  </tr>
+                  <tr>
+                    <td>Partner</td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Site</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        </select></td>
+                  </tr>
+                  <tr>
+                    <td>Kind of Tutor <span class="asterisk">*</span></td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Type</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        </select></td>
+                  </tr>
+                  <tr>
+                    <td>Prior Semester Active</td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Semester</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        </select></td>
+                  </tr>
+                  <tr>
+                    <td>Session</td>
+                    <td class="select">
+                      <select name="option">
+                        <option value="option" selected>Select Session</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        </select></td>
+                  </tr>
+                  <tr>
+                    <td>Tutor Time Availability</td>
+                    <td><input type="#" class="tableCell"></td>
+                  </tr>
+                  <tr>
+                    <td>Assign Site</td>
+                    <td class="time">
+                      <select name="option">
+                        <option value="option" selected>Select Type</option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        <option value="#" name="#" id="#"></option>
+                        </select></td>     
+                  </tr> 
+                  <tr><td><td><a href="#"><label for="addMore" style="float:right; font-size:12px;color:#2180a5;">Add More</label></a></td></td></tr>                   
+                </table>
+            </div>
+            <div class="row container-inner">
+              <h4>Additional Info2</h4>
+                <table border="0" class="tableTutor">
+                  <tr>
+                    <td>Sent Time Availability <span class="asterisk">*</span></td>
+                    <td><input type="radio" name="available" value="check" id="available"><label for="available">Available</label><input type="radio" name="notAvailable" value="check" id="notAvailable"><label for="notAvailable">Not Available</label></td>
+                  </tr>
+                  <tr>
+                    <td>Google Drive Common <span class="asterisk">*</span></td>
+                    <td><input type="radio" value="check" name="gdCommonYes" id="gdCommon"><label for="gdCommon">Yes</label><input type="radio" value="check" name="no" id="gdNotCommon"><label for="gdNotCommon">No</label></td>
+                  <tr>
+                    <td>Google Drive Individual <span class="asterisk">*</span></td>
+                    <td><input type="radio" value="check" name="yes" id="gdIndividual"><label for="gdIndividual">Yes</label><input type="radio" value="check" name="no" id="gdNotIndividual"><label for="gdNotIndividual">No</label></td>
+                  <tr>
+                    <td>Blog <span class="asterisk">*</span></td>
+                    <td><input type="radio" value="check" name="yes" id="blogYes"><label for="blogYes">Yes</label><input type="radio" value="check" name="no" id="blogNo"><label for="blogNo">No</label></td>
+                  </tr>          
+                  <tr>
+                    <td>Resume</td>
+                    <td><label class="btn btn-default btn-file">Choose File<input type="file" name="uploadResume" style="display: none;"></label>
+                    <label class="btn btn-default btn-file">Upload<input type="file" style="display: none;"></label></td>
+                  </tr>
+                  <tr>
+                    <td>Cover Letter</td>
+                    <td><label class="btn btn-default btn-file">Choose File<input type="file" name="uploadCover" style="display: none;"></label>
+                    <label class="btn btn-default btn-file">Upload<input type="file" style="display: none;"></label></td>
+                  </tr>                     
+                  <tr>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Resume Completed</td>
+                    <td><input type="radio" value="check" name="yes" id="resumeCompleted"><label for="resumeCompleted">Yes</label><input type="radio" value="check" name="no" id="resumeNotCompleted"><label for="resumeNotCompleted">No</label></td>
+                  </tr>
+                  <td>Resume Review Date</td>
+                    <td class="calendar">
+                      <input type="calendar"></td>
+                  <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit" class="button" role="button"></input><input type="reset" class="button" role="button" id="resetButton"></input></td>  
+                  </tr>
+        
+                </table>
+            </div>
+        </main>    
+      </div>  
+      <footer>
+          <section class="footerNav">
+             <ul class="navbarBottom">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">Partner</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+             </ul>
+          </section>
+          <h4><small>City Tutors ©2016 | All Rights Reserved</small></h4>    
+      </footer>
+
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/main.js"></script> -->
+
+            <script>$(".dropdown-menu li a").click(function(){
+            $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <label class="caret"></label>');
+            $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+            })</script>
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script>
+                (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+                e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+                e.src='https://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+                ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+            </script>
+
+    </body>
+</html>
